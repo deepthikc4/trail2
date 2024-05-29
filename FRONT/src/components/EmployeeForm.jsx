@@ -9,7 +9,6 @@ import axiosInstance from '../axiosinterceptor';
 
 const EmployeeForm = (props) => {
 
-
 const navigate=useNavigate();
 const[formdata,setform]=useState(props.data);
 const inputHandler=(e)=>{
